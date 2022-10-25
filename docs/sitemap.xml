@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/</loc>
     <lastmod>2022-10-20T20:52:24+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/instalar_hugo/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/posts/instalar_hugo/</loc>
     <lastmod>2022-10-20T20:52:24+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/posts/</loc>
     <lastmod>2022-10-20T20:52:24+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/comunicacion/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/posts/comunicacion/</loc>
     <lastmod>2022-10-20T20:44:15+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/herramientas/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/posts/herramientas/</loc>
     <lastmod>2022-10-20T20:13:12+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/sobre_mi/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/sobre_mi/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://abrahamsg27.github.io/PaginaAbraham/tags/</loc>
   </url>
 </urlset>
