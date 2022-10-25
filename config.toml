@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "nl"
+theme = "tale"
+sectionPagesMenu = "main"
+defaultContentLanguage = "es"
+title = "Abraham Sardinha"
+
+[menu]
+    [[menu.main]]
+	    identifier = "sobre_mi"
+		name = "Sobre mí"
+		title = "Sobre mí"
+	    url = "/sobre_mi/"
+	    weight = 0
+
