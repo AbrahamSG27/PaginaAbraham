@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+		
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Instalación de Hugo &middot; Abraham Sardinha</title>
+
+		
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/fonts.css">
+		
+		<link rel="icon" href="/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Abraham Sardinha" />
+
+		<script src="/js/darkmode.js"></script>
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					
+						<h2 class="nav-title">Abraham Sardinha</h2>
+					
+				</a>
+				<ul>
+    
+    
+        <li>
+            <a href="/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/sobre_mi/">
+                
+                <span>Sobre mí</span>
+                
+            </a>
+        </li>
+    
+</ul>
+			</div>
+		</nav>
+
+        <div id="darkModeToggle" onclick="toggleDarkMode()">
+  &#9680; 
+</div>
+
+        
+
+<main>
+	
+
+
+        <div class="post">
+		<div class="post-info">
+    <span>Escrito por</span>
+        
+        <br>
+        <span>el&nbsp;</span><time datetime="2022-10-20 20:52:24 &#43;0200 CEST">20 de octubre de 2022</time>
+</div>
+
+		<h1 class="post-title">Instalación de Hugo</h1>
+<div class="post-line"></div>
+
+		
+
+		<p><img src="https://imgs.search.brave.com/F5Ufn2nWMTzb_hRMl23hLGv1zW-rIWtNZ8sXHVzRLiE/rs:fit:565:151:1/g:ce/aHR0cHM6Ly93d3cu/Ymxlc3RhLmNvbS91/cGxvYWRzLzIwMTYv/MDYvaHVnby1sb2dv/LnBuZw" alt="hugo logo"></p>
+<h1 id="qué-es-hugo">¿Qué es Hugo?</h1>
+<p>Hugo es un generador de sitios estáticos que permite crear un sitio web sin apenas código. Los generadores de sitios estáticos suelen permitirte escribir tu contenido en un lenguaje de marcado sencillo, como Markdown. Hugo convierte el contenido en archivos HTML estáticos.</p>
+<p>Con Hugo, puedes elegir entre una biblioteca de temas y diseños de sitios que otras personas ya han creado. Una vez que hayas descargado un tema, puedes empezar a escribir tu contenido. Hugo acepta diferentes formatos para que escribas tu contenido.</p>
+<h1 id="beneficios-de-usar-hugo">Beneficios de usar Hugo</h1>
+<ul>
+<li>
+<p>Como Hugo es bastante ligero y genera páginas web estáticas, tu sitio web final y su contenido pueden cargarse muy rápidamente. Esto significa que los usuarios tendrán poco tiempo de espera al navegar por tu sitio.</p>
+</li>
+<li>
+<p>Todo el contenido es estático y no cambia una vez que el usuario está viendo la página. Por lo tanto, no tiene que preocuparse por las constantes peticiones a un servidor. Tampoco tiene que preocuparse de las bases de datos, ni de contabilizar los datos dinámicos.</p>
+</li>
+<li>
+<p>No necesita conocimientos avanzados de programación para poder trabajar con un sitio Hugo. Sin embargo, como tienes acceso directo al código, puedes personalizarlo completamente como quieras si decides hacerlo.</p>
+</li>
+</ul>
+<h1 id="instalación-de-hugo">Instalación de Hugo</h1>
+<p>Hugo cuenta con un sistema de instalación relativamente sencillo que cambiará en función a tu sistema operativo.</p>
+<h2 id="windows">Windows</h2>
+<ol>
+<li>
+<p>Para instalar hugo en sistemas operativos Windows, una de las mejores maneras es usar el gestor de archivos <em><strong>Chocolatey</strong></em> que en caso de que no lo tengas instalado, puedes hacer uso de esta pequeña guía <a href="https://www.solvetic.com/tutoriales/article/8886-instalar-chocolatey-en-windows-10/"><em>Instalar Chocolatey en Windows</em></a> y luego seguir con la instalación de hugo.</p>
+</li>
+<li>
+<p>El siguiente paso para culminar la instalación de hugo es introducir el comando de instalación de chocolatey para la versión de hugo que desees <em><strong>hugo</strong></em> o <em><strong>hugo-extended</strong></em>:</p>
+<blockquote>
+<p>choco install hugo -confirm
+choco install hugo-extended -confirm</p>
+</blockquote>
+</li>
+<li>
+<p>Por último, es recomendable comprobar la correcta instalación de hugo con el comando:</p>
+<blockquote>
+<p>hugo version</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="linux">Linux</h2>
+<ol>
+<li>
+<p>Una de las mejores formas de instalar Hugo para Linux, es mediante el gestor de paquete <em><strong>Snap</strong></em>. Por lo que el primer paso para llevar a cabo esta instalación es desde luego, comprobar que tengamos snap instalado en el dispositivo. Para ello introduciremos el siguiente comando en un terminal:</p>
+<blockquote>
+<p>snap version</p>
+</blockquote>
+</li>
+<li>
+<p>Habiendo comprobado de esta manera la presencia de snap, solo nos quedará instalar <em><strong>hugo</strong></em> o su versión extendida <em><strong>hugo-extended</strong></em> haciendo uso de este gestor de paquetes con alguno de estos dos comandos:</p>
+<blockquote>
+<p>snap install hugo
+snap install hugo &ndash;channel=extended</p>
+</blockquote>
+</li>
+<li>
+<p>Por último, es recomendable comprobar la correcta instalación de hugo con el comando:</p>
+<blockquote>
+<p>hugo version</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="macos">MacOS</h2>
+<ol>
+<li>
+<p>Para instalar hugo en un sistema operativo MacOS bastará con usar el gestor de paquetes <em><strong>Brew</strong></em> que seinstala con el siguiente comando:</p>
+<blockquote>
+<p>ruby -e &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)%22">https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</a></p>
+</blockquote>
+</li>
+<li>
+<p>Habiendo hecho esto solo debemos introducir el comando:</p>
+<blockquote>
+<p>brew install hugo</p>
+</blockquote>
+</li>
+<li>
+<p>Escribir el siguiente comando para comprobar la instalación:</p>
+<blockquote>
+<p>hugo version</p>
+</blockquote>
+</li>
+</ol>
+<p><img src="https://imgs.search.brave.com/2cVV6Sd3VPovUPXKCVC0gxZ_sutmaw9ZetzEM9dn_AQ/rs:fit:369:157:1/g:ce/aHR0cHM6Ly93d3cu/cG9ja2V0c29sdXRp/b24ubmV0L2ltZy9t/YWMtbGludXgtd2lu/ZG93cy5wbmc" alt="2"></p>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/posts/comunicacion/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			
+			<span>
+			&copy; <time datetime="2022-10-25 22:44:59.7601363 &#43;0200 CEST m=&#43;0.644877201">2022</time> . Hecho con <a href='https://gohugo.io'>Hugo</a> usando el tema <a href='https://github.com/EmielH/tale-hugo/'>Tale</a>.
+			</span>
+		</footer>
+
+    </body>
+</html>
